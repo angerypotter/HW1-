@@ -1,12 +1,12 @@
-Down
-Down
+down ()
+down ()
 varA (Get Color)
-Down
-Down
-Down
-Right
-Right
+down ()
+down ()
+down ()
+right ()
+right ()
 varA (Set Color)
-Right
-Right
-Up
+right ()
+right ()
+up ()
