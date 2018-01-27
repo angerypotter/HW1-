@@ -1,6 +1,15 @@
-function
-get color(
-  if (getColor == "blue") {down}
-  if (getColor == "pink") {up}
-  if (getColor == "white") {right}
-)
+right ();
+right();
+var A = getColor ()
+  if (getColor() == "blue") {down()} else {up()}
+right ();
+right();
+var A = getColor ()
+  if (getColor() == "blue") {down()} else {up()}
+right ();
+right();
+var A = getColor ()
+  if (getColor() == "blue") {down()} else {up()}
+right()
+right()
+right()
