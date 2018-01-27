@@ -1,4 +1,6 @@
 function
+get color(
   if (getColor == "blue") {down}
   if (getColor == "pink") {up}
   if (getColor == "white") {right}
+)
