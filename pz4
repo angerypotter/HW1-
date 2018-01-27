@@ -1,16 +1,17 @@
-Down
-Down
-Down
-Down
-Right 
-var A (get color)
-Down
-var A (set color)
-Right 
-Right
-Up
-var B (get color)
-Down
-var B (set color)
-Right 
-Right
+down ()
+down ()
+down ()
+down ()
+right ()
+var A = getColor()
+down ()
+setColor(A)
+right ()
+right ()
+right ()
+up ()
+var B = getColor()
+down ()
+setColor(B)
+right ()
+right ()
