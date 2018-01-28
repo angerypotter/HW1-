@@ -1,0 +1,28 @@
+function goDown (){
+  while (getColor !="red") 
+   {down}
+  
+  right
+  
+function goUp (){
+  while (getColor !="red")
+     {up}
+  
+  right
+
+Down
+right
+
+goUp
+
+right
+
+goDown
+
+right
+
+lineUp
+
+right
+
+goDown
