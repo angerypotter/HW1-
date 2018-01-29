@@ -1,28 +1,34 @@
-function goDown (){
-  while (getColor !="red") 
-   {down}
-  
-  right
-  
-function goUp (){
-  while (getColor !="red")
-     {up}
-  
-  right
+function lineDown() {
+  while (getColor() != "red") {
+   down();
+}
 
-Down
-right
 
-goUp
+  if (getColor() == "red") {
+   right();
+}   else {
+     down()
+}
+}
+function lineUp() {
+  while (getColor() != "red") {
+   up();
+}
 
-right
 
-goDown
-
-right
-
-lineUp
-
-right
-
-goDown
+  if (getColor() == "red") {
+   right();
+}   else {
+     up()
+}
+}
+lineDown()
+right()
+lineUp()
+right()
+lineDown()
+right()
+lineUp()
+right()
+lineDown()
+right()
