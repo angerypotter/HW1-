@@ -1,25 +1,42 @@
-function goDown (){
-  var steps = 0 ()
-  while (steps < 8) {
-    down
-    steps = steps + 1
-  }
-  right
+function lineDown() {
+  while (getColor() == "white") {
+   down();
 }
-function goUp (){
-  var steps = 0 ()
-  while (steps < 8) {
-    up
-    steps = steps + 1
+
+  var count = 0;
+  while (count < 8) {
+    down();
+    count = count + 1;
   }
-  right
 }
-goDown
-right
-goUp
-right
-goDown
-right
-goUp
-right
-goDown
+
+function lineUp() {
+  while (getColor() == "white") {
+   up();
+}
+
+  var count = 0;
+  while (count < 8) {
+    up();
+    count = count + 1;
+  }
+}
+    
+lineDown()
+right()
+right()
+lineUp()
+right()
+right()
+lineDown()
+right()
+right()
+lineUp()
+right()
+right()
+lineDown()
+right()
+right()
+lineUp()
+right()
+right()
