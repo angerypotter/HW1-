@@ -1,0 +1,52 @@
+function lineDown() {
+  while (getColor() == "white") {
+   down();
+}
+
+  var count = 0;
+  while (count < 7) {
+    down();
+    count = count + 1;
+  }
+}
+
+function lineRight() {
+  while (getColor() == "white") {
+   up();
+}
+
+  var count = 0;
+  while (count < 8) {
+    right();
+    count = count + 1;
+  }
+}
+ function lineUp() {
+  while (getColor() == "white") {
+   down();
+}
+
+  var count = 0;
+  while (count < 7) {
+    up();
+    count = count + 1;
+  }
+}   
+ function lineLeft() {
+  while (getColor() == "white") {
+   left();
+}
+
+  var count = 0;
+  while (count < 8) {
+    up();
+    count = count + 1;
+  }
+}   
+lineDown()
+
+lineRight()
+
+lineUp()
+
+lineLeft()
