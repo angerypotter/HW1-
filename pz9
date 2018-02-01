@@ -1,3 +1,5 @@
 function open_rectangle(0,0,8,7,black,red) {
 }
 open rectangle
+
+//I have no run-image on rudy.zamfi for puzzle 9, so I have no idea if this is right.
